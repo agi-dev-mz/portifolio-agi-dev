@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portifolio</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js" defer></script>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<!-- *
+	*
+	* HEADER
+	*
+	* -->
+	<div id="header">
+		<div class="header-logo">
+			<span>agi.dev</span>
+		</div>
+		<ul class="header-nav" id="menu-mobile">
+			<li>
+				<i class='bx bx-home-alt-2' ></i>
+				<a href="#section-home-id">Home</a>
+			</li>
+			<li>
+				<i class='bx bxs-book-alt' ></i>
+				<a href="#section-projects-id">Projectos</a>
+			</li>
+			<li>
+				<i class='bx bx-user' ></i>
+				<a href="#section-contacts-id">Contactos</a>
+			</li>
+		</ul>
+		<button id="button-menu-mobile">
+			<i class='bx bx-menu'></i>
+		</button>
+	</div>
+	<!-- *
+	*
+	* section HOME
+	*
+	* -->
+	<section class="section-home" id="section-home-id">
+		<div class="my-info">
+			<span>Hi, I am agi!</span>
+			<span>Develper Front-End</span>
+		</div>
+		<div class="container-languages">
+			<div class="language-item">
+				<div class="language-item-title">HTML</div>
+				<div class="language-item-icon">
+					<img src="assets/img/HTML-logo.png">
+				</div>
+			</div>
+			<div class="language-item">
+				<div class="language-item-title">CSS</div>
+				<div class="language-item-icon">
+					<img src="assets/img/CSS-logo.png">
+				</div>
+			</div>
+			<div class="language-item">
+				<div class="language-item-title">JS</div>
+				<div class="language-item-icon">
+					<img src="assets/img/JS-logo.png">
+				</div>
+			</div>
+			<div class="language-item">
+				<div class="language-item-title">VUE.js</div>
+				<div class="language-item-icon">
+					<img src="assets/img/VUE.js-logo.png">
+				</div>
+			</div>
+		</div>
+	</section>	
+	<!-- *
+	*
+	* section PROJECTS
+	*
+	* -->
+	<section class="section-projects" id="section-projects-id">
+		<h2>Meus Projectos</h2>
+		<div class="container-projects" id="container-projects">
+			<!-- <div class="project">
+				<img src="https://assets-blog.hostgator.com.br/wp-content/uploads/2024/04/AnyConv.com__adham-dannhaway-portfolio.webp">
+				<div class="title">Green Store</div>
+				<div class="button-box-ver">
+					<button>Ver</button>
+				</div>
+			</div> -->
+		</div>
+	</section>
+	<!-- *
+	*
+	* section CONTACTOS
+	*
+	* -->
+	<section class="section-contacts" id="section-contacts-id">
+		<h2>Contactos</h2>
+		<div class="container-contactos">
+			<div class="contacto">
+				<i class='bx bxl-github'></i>
+				<a href="#">Github</a>
+			</div>
+			<div class="contacto">
+				<i class='bx bxl-instagram'></i>
+				<a href="#">Instagram</a>
+			</div>
+			<div class="contacto">
+				<i class='bx bxl-facebook'></i>
+				<a href="#">Facebook</a>
+			</div>
+		</div>
+	</section>
+	<!-- *
+	*
+	* MODAL PROJECT
+	*
+	* -->
+	<div id="janela-modal-project">
+		<div id="moda-project">
+			<img src="https://assets-blog.hostgator.com.br/wp-content/uploads/2024/04/AnyConv.com__adham-dannhaway-portfolio.webp" id="modal-project-image">
+			<div id="modal-project-name">
+				Green Store
+			</div>
+			<div id="modal-project-description">
+				<p class="title">Descricao do projecto:</p>
+				<p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, nemo ipsam qui odit laborum unde eaque</p>
+			</div>
+			<a href="" id="modal-project-github">
+				Github
+			</a>
+		</div>
+	</div>
+</body>
+</html>
